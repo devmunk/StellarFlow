@@ -37,24 +37,30 @@
 
 ```
 stellar-payment-dapp/
-├── index.html                  # HTML entry point
-├── vite.config.js              # Vite config (polyfills for Stellar SDK)
+├── demo/
+│   └── quicksend-xlm-demo.mp4     # Demo video of the application
+├── screenshots/
+│   ├── interface.png              # Initial UI before wallet connection
+│   ├── wallet-balance.png         # Wallet connected with XLM balance
+│   └── transaction-success.png    # Successful transaction confirmation
+├── index.html                     # HTML entry point
+├── vite.config.js                 # Vite config (polyfills for Stellar SDK)
 ├── package.json
-├── .env.example                # Environment variable template
+├── .env.example                   # Environment variable template
 ├── README.md
 └── src/
-    ├── main.jsx                # React DOM entry
-    ├── App.jsx                 # Root component
-    ├── styles.css              # Global design system
+    ├── main.jsx                   # React DOM entry
+    ├── App.jsx                    # Root component
+    ├── styles.css                 # Global design system
     ├── components/
-    │   ├── WalletCard.jsx      # Wallet connect/disconnect UI
-    │   ├── BalanceCard.jsx     # XLM balance display
-    │   └── SendForm.jsx        # Transaction form + result
+    │   ├── WalletCard.jsx         # Wallet connect/disconnect UI
+    │   ├── BalanceCard.jsx        # XLM balance display
+    │   └── SendForm.jsx           # Transaction form + result
     ├── utils/
-    │   ├── stellar.js          # Stellar SDK utilities (balance, send, format)
-    │   └── useWallet.js        # Custom React hook for wallet state
+    │   ├── stellar.js             # Stellar SDK utilities (balance, send, format)
+    │   └── useWallet.js           # Custom React hook for wallet state
     └── services/
-        └── freighter.js        # Freighter API wrapper
+        └── freighter.js           # Freighter API wrapper
 ```
 
 ---
