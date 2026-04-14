@@ -1,6 +1,6 @@
 # ✦ StellarFlow — XLM Payment dApp
 
-> A clean, production-ready Stellar Testnet dApp for sending XLM with Freighter wallet integration. Built with React + Vite.
+> Built for Stellar Level 1 White Belt — Demonstrates wallet integration, balance fetching, and XLM transactions on Stellar Testnet.
 
 ![StellarFlow](https://img.shields.io/badge/Network-Stellar_Testnet-00d4ff?style=for-the-badge)
 ![React](https://img.shields.io/badge/Frontend-React_18-61dafb?style=for-the-badge)
@@ -255,4 +255,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-*Built for Stellar Level 1 White Belt certification.*
+
